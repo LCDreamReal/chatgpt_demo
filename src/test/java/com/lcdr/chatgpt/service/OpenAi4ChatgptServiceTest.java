@@ -12,6 +12,6 @@ public class OpenAi4ChatgptServiceTest extends TestBase {
 
     @Test
     public void testChat() {
-        System.out.println(openAi4ChatgptService.chat("请推荐一部好的电影，并附上800字左右的解说"));
+        System.out.println(openAi4ChatgptService.chat("春江潮水连海平，海上明月共潮生，整首诗"));
     }
 }
